@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite1" duration-ms="178368" started-at="2016-11-12T13:20:36Z" finished-at="2016-11-12T13:23:34Z">
+    <groups>
+    </groups>
+    <test name="Regression1" duration-ms="178368" started-at="2016-11-12T13:20:36Z" finished-at="2016-11-12T13:23:34Z">
+      <class name="Test_Cases.Browser_URL_Launch">
+        <test-method status="PASS" signature="Browser_Launch()[pri:0, instance:Test_Cases.Browser_URL_Launch@1c62251]" name="Browser_Launch" duration-ms="4703" started-at="2016-11-12T18:50:36Z" finished-at="2016-11-12T18:50:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Browser_Launch -->
+        <test-method status="PASS" signature="urllaunch()[pri:0, instance:Test_Cases.Browser_URL_Launch@1c62251]" name="urllaunch" duration-ms="1578" started-at="2016-11-12T18:50:41Z" depends-on-methods="Test_Cases.Browser_URL_Launch.Browser_Launch" finished-at="2016-11-12T18:50:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- urllaunch -->
+      </class> <!-- Test_Cases.Browser_URL_Launch -->
+      <class name="Test_Cases.login_testcases">
+        <test-method status="PASS" signature="t()[pri:0, instance:Test_Cases.login_testcases@a3ffec]" name="t" is-config="true" duration-ms="48" started-at="2016-11-12T18:50:42Z" finished-at="2016-11-12T18:50:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- t -->
+        <test-method status="PASS" signature="email_field()[pri:0, instance:Test_Cases.login_testcases@a3ffec]" name="email_field" duration-ms="4315" started-at="2016-11-12T18:50:42Z" finished-at="2016-11-12T18:50:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- email_field -->
+        <test-method status="PASS" signature="select_dialogbox()[pri:0, instance:Test_Cases.login_testcases@a3ffec]" name="select_dialogbox" duration-ms="23932" started-at="2016-11-12T18:50:47Z" depends-on-methods="Test_Cases.login_testcases.email_field" finished-at="2016-11-12T18:51:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- select_dialogbox -->
+        <test-method status="PASS" signature="web_tab()[pri:0, instance:Test_Cases.login_testcases@a3ffec]" name="web_tab" duration-ms="143744" started-at="2016-11-12T18:51:11Z" depends-on-methods="Test_Cases.login_testcases.select_dialogbox" finished-at="2016-11-12T18:53:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- web_tab -->
+      </class> <!-- Test_Cases.login_testcases -->
+    </test> <!-- Regression1 -->
+  </suite> <!-- Suite1 -->
+</testng-results>
